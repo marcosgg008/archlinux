@@ -78,27 +78,47 @@ for i, group in enumerate(groups):
     ])
 
 
+layout_theme = {"border_width": 2,
+                "margin": 8,
+                "border_focus": "e1acff",
+                "border_normal": "1D2330"
+                }
+
 layouts = [
-    layout.Columns(border_focus_stack=['#d75f5f', '#8f3d3d'], border_width=4),
-    layout.Max(),
-    layout.Bsp(),
-    layout.MonadTall(),
-    layout.MonadWide(),
+    #layout.Bsp(**layout_theme),
+    #layout.Stack(stacks=2, **layout_theme),
+    #layout.Columns(**layout_theme),
+    #layout.RatioTile(**layout_theme),
+    #layout.Tile(shift_windows=True, **layout_theme),
+    #layout.VerticalTile(**layout_theme),
+    # layout.Matrix(**layout_theme),
+    #layout.Zoomy(**layout_theme),
     # layout.Stack(num_stacks=2),
-    # layout.Matrix(),
-    # layout.RatioTile(),
-    # layout.Tile(),
+    # layout.RatioTile(**layout_theme),
     # layout.TreeTab(),
-    # layout.VerticalTile(),
-    # layout.Zoomy(),
+    # layout.Floating(**layout_theme),
+    layout.MonadWide(**layout_theme),
+    layout.MonadTall(**layout_theme),
+    layout.Max(**layout_theme),
 ]
 
+colors = [["#282c34", "#282c34"], # panel background
+          ["#3d3f4b", "#434758"], # background for current screen tab
+          ["#ffffff", "#ffffff"], # font color for group names
+          ["#ff5555", "#ff5555"], # border line color for current tab
+          ["#74438f", "#74438f"], # border line color for 'other tabs' and color for 'odd widgets'
+          ["#4f76c7", "#4f76c7"], # color for the 'even widgets'
+          ["#e1acff", "#e1acff"], # window name
+          ["#ecbbfb", "#ecbbfb"]] # backbround for inactive screens
+
+
+#----Configuración Por Defecto Widgets----#
 widget_defaults = dict(
     font='UbuntuMono Nerd Font',
-    fontsize=14,
-    padding=3,
+    fontsize = 16,
+    padding = 2,
+    background=colors[2]
 )
-extension_defaults = widget_defaults.copy()
 
 screens = [ # Para tener varias pantallas se debe copiar el código de Screen y borrar el Systray
     Screen(
