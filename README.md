@@ -1,5 +1,5 @@
 # archlinux
-Paquetes Básicos: Xterm|, google-chrome(aur)|, alacritty*|, code(r)|, rofi*|, feh, pulseaudio, pavucontrol, brightnessctl, xorg-xinit*, picom, nerd-fonts-ubuntu-mono(aur), ttf-dejavu, ttf-liberation, noto-fonts, ntfs-3g, udiskie, udisks(aur), arandr, vlc, geeqie, scrot, thunar, network-manager-applet, cbatticon, libnotify, notifiction-daemon*, python-pip(sutil)[gcc], pacman-contrib(widget),(configuración .bashrc*), papirus-icon-theme, exa, ccat(aur), neovim, xsel(clipboard nvim), fzf, ripgrep, fd, the_silver_searcher, ctags-git(aur), os-prober*, git (aur*), base-devel, 
+Paquetes Básicos: Xterm|, google-chrome(aur)|, alacritty*|, code(r)|, rofi*|, feh|, pulseaudio|, pavucontrol|, brightnessctl, xorg-xinit*|, picom|, nerd-fonts-ubuntu-mono(aur), ttf-dejavu, ttf-liberation, noto-fonts, ntfs-3g, udiskie, udisks(aur), arandr, vlc, geeqie, scrot, thunar, network-manager-applet, cbatticon, libnotify|, notifiction-daemon*|, python-pip(sutil)[gcc], pacman-contrib(widget),(configuración .bashrc*), papirus-icon-theme, exa, ccat(aur), neovim, xsel(clipboard nvim), fzf, ripgrep, fd, the_silver_searcher, ctags-git(aur), os-prober*, git (aur*), base-devel, 
 yay -Qe
 
 
@@ -32,10 +32,10 @@ yay -Qe
   
 
 <h3>INTERNET</h3>
-<p> Es hora de instalar un buscador para copiar código, para ello yo suelo usar google chrome y se instala con yay asique lo usamos <b>"yay -S google-chrome"</b>. 
+<p> Es hora de instalar un buscador para copiar código, por ello yo suelo usar google chrome y se instala con yay asique lo usamos <b>"yay -S google-chrome"</b>. 
 Le podemos añadir un atajo de teclado en .config/qtile/config.py para no tener que lanzarlo desde la terminal todo el rato, para ello nos vamos a la sección de "keys" y añadimos: </p>
 
-   # GOOGLE CHROME 
+    # GOOGLE CHROME 
     Key([mod], "b", lazy.spawn("google-chrome-stable")),
 
 <h3>MENÚ</h3>
@@ -45,13 +45,54 @@ Le podemos añadir un atajo de teclado en .config/qtile/config.py para no tener 
     Key([mod], "m", lazy.spawn("rofi -show drun")), # Box con todos los programas
     Key([mod, "shift"], "m", lazy.spawn("rofi -show")), # Box con todos los programas abiertos
 
-<p> Para usar el tema que tengo puesto en rofi, debemos seguir esos pasos, clonar el repositorio y copiar el tema que queramos en "/usr/share/rofi/themes", si quereis ver los temas disponibles en este fichero, mirad <a href="https://github.com/davatorium/rofi-themes">aquí</a>
+<p> Para usar el tema que tengo puesto en rofi, debemos seguir esos pasos, clonar el repositorio y copiar el tema que queramos en "/usr/share/rofi/themes", si quereis ver los temas disponibles en este fichero, mirad <a href="https://github.com/davatorium/rofi-themes">aquí</a></p>
     
     git clone https://github.com/davatorium/rofi-themes.git
     cd rofi-themes/User\ Themes/
     cp onedark.rasi /usr/share/rofi/themes
     cd ~/
     sudo rm -r rofi-themes
+    rofi-theme-selector # Buscar onedark y presionar alt + a
 
-   
+<p> Y para los iconos instalamos <b>papirus-icon-theme</b> y <b>nerd-fonts-ubuntu-mono</b>, este útlimo con yay, luego deberemos borrar esa linea en <b>/usr/share/rofi/themes/onedark.rasi</b></p>
+    
+    font: "Knack Nerd Font 14";
 
+<p> Si quires, también puedes copiar mis configuraciones</p>
+    
+<h3>FONDOS</h3>
+<p> Ahora vamos a quitar ese fondo negro tan soso, para ello haremos uso de las herramientas <b>feh</b> y <b>picom</b>, una vez instaladas con "pacman" debemos poner este comando para que feh se ponga a trabajar y cambie el fondo </p>
+
+    sudo pacman -S picom feh
+    feh --bg-scale <RUTA DEL FONDO>
+
+<h3>AUDIO</h3>
+<p>Llegados a este punto no tenemos ni audio, por ello vamos a instalar <b>pulseaudio</b> y un controlador gráfico como <b>pavucontrol</b> y activamos el audio en segundo plano </p>
+    
+    sudo pacman -S pulseaudio pavucontrol
+    pulseaudio &
+    
+<p>Con esto ya tenemos audio, puedes ir a youtube mediante los atajos configurados a probarlo, pero muy posiblemente tengas que acceder a pavucontrol (por rofi por ejemplo) y desmutear el sonido.
+
+<h3>XINIT</h3>
+<p>Ahora mismo si hacemos <b>mod + shift + q</b> se perderan todos los cambios, pero no se preocupe, para eso esta xorg-xinit, este paquete lo que hace es que el archivo <b>".xprofile"</b> se ejecute cada vez que iniciamos sesión, por ello lo creamos y le metemos valores, como por ejemplo el fondo del feh, el pulse audio o el picom, es importante que tengan "&" este símbolo detras para que pueda correr al siguente proceso en segundo plano, un ejemplo gráfico lo teneis arriba en mi configuración</p>
+    
+    touch ~/.xprofile
+    //Editanto .xprofile
+    pulseaudio &
+    feh --bg-scale <RUTA DEL FONDO> &
+    picom & 
+    
+<h3>NOTIFICACIONES</h3>
+<p> Para poder recibir notificaciones, necesitamos instalar "libnotify" y "notification-daemon". Una vez instalados hacemos: </p>
+    
+    # Crea este fichero con nano o vim
+    sudo nano /usr/share/dbus-1/services/org.freedesktop.Notifications.service
+    # Pega estas líneas
+    [D-BUS Service]
+    Name=org.freedesktop.Notifications
+    Exec=/usr/lib/notification-daemon-1.0/notification-daemon
+    //PUEDES PROBARLO PONIENDO:
+    notification-send: "Hola Mundo"
+
+    
