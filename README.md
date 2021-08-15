@@ -103,3 +103,4 @@ Le podemos añadir un atajo de teclado en .config/qtile/config.py para no tener 
 etc/default
 sudo nano grub
 GRUB_DISABLE_OS_PROBER=false
+grub-mkconfig -o /boot/grub/grub.cfg
