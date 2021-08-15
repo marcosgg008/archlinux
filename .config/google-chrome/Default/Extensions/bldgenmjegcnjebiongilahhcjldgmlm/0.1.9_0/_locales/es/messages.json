@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "Crear nuevos documentos para Google Drive usando la barra del navegador."
+   },
+   "new_doc": {
+      "message": "Nuevo Documento"
+   },
+   "new_draw": {
+      "message": "Nuevo Dibujo"
+   },
+   "new_form": {
+      "message": "Nuevo Formulario"
+   },
+   "new_prez": {
+      "message": "Nueva Presentación"
+   },
+   "new_sheet": {
+      "message": "Nueva Hoja de Cálculo"
+   },
+   "title": {
+      "message": "Crear Rápida para Google Docs"
+   }
+}

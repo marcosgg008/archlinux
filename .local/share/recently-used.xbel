@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/marcos/Wallpapers/fondo2.png" added="2021-08-14T11:26:12.033298Z" modified="2021-08-14T11:26:12.033310Z" visited="2021-08-14T11:26:12.033299Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2021-08-14T11:26:12.033303Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/marcos/Wallpapers/fondo1.png" added="2021-08-14T11:26:32.841115Z" modified="2021-08-14T11:26:32.841134Z" visited="2021-08-14T11:26:32.841118Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2021-08-14T11:26:32.841123Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/marcos/Wallpapers/fondogoogle.png" added="2021-08-14T11:27:14.203626Z" modified="2021-08-14T15:17:08.837250Z" visited="2021-08-14T11:27:14.203627Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2021-08-14T15:17:08.837246Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/marcos/bashrc" added="2021-08-14T15:42:30.572135Z" modified="2021-08-14T15:42:30.572152Z" visited="2021-08-14T15:42:30.572137Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2021-08-14T15:42:30.572142Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/marcos/xprofile" added="2021-08-14T15:42:41.598065Z" modified="2021-08-14T15:42:41.598076Z" visited="2021-08-14T15:42:41.598066Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2021-08-14T15:42:41.598070Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

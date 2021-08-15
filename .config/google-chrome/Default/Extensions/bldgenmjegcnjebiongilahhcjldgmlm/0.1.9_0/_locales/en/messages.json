@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "Create new Documents for Google Drive from your browser bar."
+   },
+   "new_doc": {
+      "message": "New Document"
+   },
+   "new_draw": {
+      "message": "New Drawing"
+   },
+   "new_form": {
+      "message": "New Form"
+   },
+   "new_prez": {
+      "message": "New Presentation"
+   },
+   "new_sheet": {
+      "message": "New Spreadsheet"
+   },
+   "title": {
+      "message": "Google Docs Quick Create"
+   }
+}

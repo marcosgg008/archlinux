@@ -1,0 +1,24 @@
+2021/08/14-23:54:15.343 bfb Reusing MANIFEST /home/marcos/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/08/14-23:54:15.343 bfb Recovering log #15
+2021/08/14-23:54:15.395 bfb Reusing old log /home/marcos/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000015.log 
+2021/08/14-23:54:20.694 bfb Level-0 table #20: started
+2021/08/14-23:54:20.708 bfb Level-0 table #20: 340777 bytes OK
+2021/08/14-23:54:20.712 bfb Delete type=0 #15
+2021/08/14-23:54:20.712 bfb Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/08/14-23:54:20.875 bfb Level-0 table #22: started
+2021/08/14-23:54:20.880 bfb Level-0 table #22: 34750 bytes OK
+2021/08/14-23:54:20.883 bfb Delete type=0 #19
+2021/08/14-23:54:20.884 bfb Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 5281 : 1
+2021/08/14-23:54:20.884 bfb Compacting 1@0 + 1@1 files
+2021/08/14-23:54:20.894 bfb Generated table #23@0: 1197 keys, 37708 bytes
+2021/08/14-23:54:20.894 bfb Compacted 1@0 + 1@1 files => 37708 bytes
+2021/08/14-23:54:20.897 bfb compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/08/14-23:54:20.897 bfb Delete type=2 #22
+2021/08/14-23:54:20.898 bfb Manual compaction at level-0 from '\x00\x0d\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 5281 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/08/14-23:55:56.658 ceb Compacting 1@1 + 1@2 files
+2021/08/14-23:55:56.701 ceb Generated table #24@1: 187 keys, 26065 bytes
+2021/08/14-23:55:56.701 ceb Compacted 1@1 + 1@2 files => 26065 bytes
+2021/08/14-23:55:56.705 ceb compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/08/14-23:55:56.705 ceb Delete type=2 #17
+2021/08/14-23:55:56.705 ceb Delete type=2 #20
+2021/08/14-23:55:56.705 ceb Delete type=2 #23

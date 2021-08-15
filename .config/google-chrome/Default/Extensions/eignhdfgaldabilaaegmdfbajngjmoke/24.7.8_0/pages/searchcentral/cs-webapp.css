@@ -1,0 +1,1 @@
+#gb,#gb+div[class^=gb_]{display:none!important}body,html{height:100%!important;overflow-y:auto!important}html.mdl-js>body>script:first-child+div>div:first-child[class]+div[class][style*="display: none"]{display:-webkit-flex!important;display:flex!important}

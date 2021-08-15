@@ -1,0 +1,506 @@
+{
+   "cj_i18n_00000": {
+      "message": "The easiest access to the Google universe"
+   },
+   "cj_i18n_00005": {
+      "message": "Tong sampah"
+   },
+   "cj_i18n_00013": {
+      "message": "dimilik saya"
+   },
+   "cj_i18n_00017": {
+      "message": "Imej"
+   },
+   "cj_i18n_00022": {
+      "message": "Negara Anda"
+   },
+   "cj_i18n_00026": {
+      "message": "Sukan"
+   },
+   "cj_i18n_00047": {
+      "message": "Lebih"
+   },
+   "cj_i18n_00083": {
+      "message": "Semua"
+   },
+   "cj_i18n_00085": {
+      "message": "Cari"
+   },
+   "cj_i18n_00090": {
+      "message": "Fail baru"
+   },
+   "cj_i18n_00103": {
+      "message": "lukisan"
+   },
+   "cj_i18n_00104": {
+      "message": "peta"
+   },
+   "cj_i18n_00107": {
+      "message": "Semua"
+   },
+   "cj_i18n_00108": {
+      "message": "Dimilik saya"
+   },
+   "cj_i18n_00112": {
+      "message": "Tapak"
+   },
+   "cj_i18n_00122": {
+      "message": "Fail"
+   },
+   "cj_i18n_00127": {
+      "message": "Tempat anda"
+   },
+   "cj_i18n_00134": {
+      "message": "Kedai"
+   },
+   "cj_i18n_00141": {
+      "message": "Foto & Imej"
+   },
+   "cj_i18n_00144": {
+      "message": "fail"
+   },
+   "cj_i18n_00155": {
+      "message": "Sejarah"
+   },
+   "cj_i18n_00161": {
+      "message": "Tentang saya"
+   },
+   "cj_i18n_00165": {
+      "message": "Januari"
+   },
+   "cj_i18n_00166": {
+      "message": "Februari"
+   },
+   "cj_i18n_00167": {
+      "message": "Mac"
+   },
+   "cj_i18n_00169": {
+      "message": "Mei"
+   },
+   "cj_i18n_00170": {
+      "message": "Jun"
+   },
+   "cj_i18n_00171": {
+      "message": "Julai"
+   },
+   "cj_i18n_00172": {
+      "message": "Ogos"
+   },
+   "cj_i18n_00174": {
+      "message": "Oktober"
+   },
+   "cj_i18n_00176": {
+      "message": "Disember"
+   },
+   "cj_i18n_00216": {
+      "message": "Aplikasi"
+   },
+   "cj_i18n_00217": {
+      "message": "Permainan"
+   },
+   "cj_i18n_00226": {
+      "message": "Semalam"
+   },
+   "cj_i18n_00248": {
+      "message": "Kumpulan"
+   },
+   "cj_i18n_00250": {
+      "message": "Sekuriti"
+   },
+   "cj_i18n_00291": {
+      "message": "Laman Utama"
+   },
+   "cj_i18n_00292": {
+      "message": "Koleksi"
+   },
+   "cj_i18n_00293": {
+      "message": "Komuniti"
+   },
+   "cj_i18n_00294": {
+      "message": "Profil"
+   },
+   "cj_i18n_00295": {
+      "message": "Orang"
+   },
+   "cj_i18n_00296": {
+      "message": "Pemberitahuan"
+   },
+   "cj_i18n_00298": {
+      "message": "Tetapan"
+   },
+   "cj_i18n_00301": {
+      "message": "Habis"
+   },
+   "cj_i18n_00302": {
+      "message": "Kalendar"
+   },
+   "cj_i18n_00303": {
+      "message": "Dihantar"
+   },
+   "cj_i18n_00311": {
+      "message": "Kewangan"
+   },
+   "cj_i18n_00314": {
+      "message": "Kenalan"
+   },
+   "cj_i18n_00315": {
+      "message": "Promosi"
+   },
+   "cj_i18n_00331": {
+      "message": "Semua"
+   },
+   "cj_i18n_00350": {
+      "message": "Tanya soalan"
+   },
+   "cj_i18n_00354": {
+      "message": "Derma"
+   },
+   "cj_i18n_00361": {
+      "message": "Tambah akaun"
+   },
+   "cj_i18n_00391": {
+      "message": "Dok"
+   },
+   "cj_i18n_00414": {
+      "message": "Penerbangan"
+   },
+   "cj_i18n_00418": {
+      "message": "Kumpulan"
+   },
+   "cj_i18n_00423": {
+      "message": "Peta"
+   },
+   "cj_i18n_00425": {
+      "message": "Berita"
+   },
+   "cj_i18n_00427": {
+      "message": "Paten"
+   },
+   "cj_i18n_00429": {
+      "message": "Foto"
+   },
+   "cj_i18n_00434": {
+      "message": "Cari"
+   },
+   "cj_i18n_00435": {
+      "message": "Beli-belah"
+   },
+   "cj_i18n_00438": {
+      "message": "Bantuan"
+   },
+   "cj_i18n_00440": {
+      "message": "Terjemah"
+   },
+   "cj_i18n_00441": {
+      "message": "Aliran"
+   },
+   "cj_i18n_00443": {
+      "message": "Suara"
+   },
+   "cj_i18n_00460": {
+      "message": "Buku"
+   },
+   "cj_i18n_00462": {
+      "message": "Kedai Web Chrome"
+   },
+   "cj_i18n_00464": {
+      "message": "Sambungan"
+   },
+   "cj_i18n_00465": {
+      "message": "Tema"
+   },
+   "cj_i18n_00471": {
+      "message": "Bumi"
+   },
+   "cj_i18n_00481": {
+      "message": "Akaun"
+   },
+   "cj_i18n_00484": {
+      "message": "Acara"
+   },
+   "cj_i18n_00488": {
+      "message": "Imej"
+   },
+   "cj_i18n_00500": {
+      "message": "Tetapan carian"
+   },
+   "cj_i18n_00509": {
+      "message": "Video"
+   },
+   "cj_i18n_00555": {
+      "message": "Tambah lokasi"
+   },
+   "cj_i18n_00603": {
+      "message": "Segerak"
+   },
+   "cj_i18n_00626": {
+      "message": "Cipta"
+   },
+   "cj_i18n_00800": {
+      "message": "Kata laluan disimpan"
+   },
+   "cj_i18n_00818": {
+      "message": "Tempat saya"
+   },
+   "cj_i18n_00838": {
+      "message": "Mengenai"
+   },
+   "cj_i18n_00878": {
+      "message": "Kebolehcapaian"
+   },
+   "cj_i18n_00901": {
+      "message": "Privasi"
+   },
+   "cj_i18n_00930": {
+      "message": "Eksperimen"
+   },
+   "cj_i18n_00994": {
+      "message": "Foto"
+   },
+   "cj_i18n_01055": {
+      "message": "Untuk anda"
+   },
+   "cj_i18n_01154": {
+      "message": "Pembayaran"
+   },
+   "cj_i18n_01174": {
+      "message": "Memuatkan"
+   },
+   "cj_i18n_01178": {
+      "message": "Teruskan"
+   },
+   "cj_i18n_01186": {
+      "message": "Komen"
+   },
+   "cj_i18n_01188": {
+      "message": "Muka surat"
+   },
+   "cj_i18n_01190": {
+      "message": "Tema"
+   },
+   "cj_i18n_01219": {
+      "message": "Keluarga"
+   },
+   "cj_i18n_01253": {
+      "message": "Hari ini"
+   },
+   "cj_i18n_01262": {
+      "message": "Bila-bila masa"
+   },
+   "cj_i18n_01264": {
+      "message": "Minggu lepas"
+   },
+   "cj_i18n_01265": {
+      "message": "Bulan lepas"
+   },
+   "cj_i18n_01266": {
+      "message": "Tahun lepas"
+   },
+   "cj_i18n_01269": {
+      "message": "Imej"
+   },
+   "cj_i18n_01270": {
+      "message": "Lukisan"
+   },
+   "cj_i18n_01326": {
+      "message": "Muat naik"
+   },
+   "cj_i18n_01344": {
+      "message": "Auto kesan"
+   },
+   "cj_i18n_01346": {
+      "message": "Sains"
+   },
+   "cj_i18n_01347": {
+      "message": "Teknologi"
+   },
+   "cj_i18n_01351": {
+      "message": "Ketahui lebih lanjut"
+   },
+   "cj_i18n_01360": {
+      "message": "Kongsi"
+   },
+   "cj_i18n_01363": {
+      "message": "Simpan"
+   },
+   "cj_i18n_01403": {
+      "message": "Eksperimen"
+   },
+   "cj_i18n_01418": {
+      "message": "Kempen"
+   },
+   "cj_i18n_01433": {
+      "message": "Muat naik"
+   },
+   "cj_i18n_01440": {
+      "message": "Keutamaan"
+   },
+   "cj_i18n_01456": {
+      "message": "Barang anda"
+   },
+   "cj_i18n_01466": {
+      "message": "Seni"
+   },
+   "cj_i18n_01469": {
+      "message": "Makanan & Minuman"
+   },
+   "cj_i18n_01471": {
+      "message": "Sejarah"
+   },
+   "cj_i18n_01476": {
+      "message": "Sains"
+   },
+   "cj_i18n_01506": {
+      "message": "Akaun"
+   },
+   "cj_i18n_01507": {
+      "message": "Log keluar"
+   },
+   "cj_i18n_01518": {
+      "message": "Alamat"
+   },
+   "cj_i18n_01524": {
+      "message": "Bayar"
+   },
+   "cj_i18n_01532": {
+      "message": "Bantuan"
+   },
+   "cj_i18n_01536": {
+      "message": "Pembayaran & subskripsi"
+   },
+   "cj_i18n_01544": {
+      "message": "Log masuk"
+   },
+   "cj_i18n_01550": {
+      "message": "Tanda halaman ini"
+   },
+   "cj_i18n_01563": {
+      "message": "Padam"
+   },
+   "cj_i18n_01588": {
+      "message": "Lanjutan"
+   },
+   "cj_i18n_01622": {
+      "message": "Muat turun"
+   },
+   "cj_i18n_01659": {
+      "message": "Batal"
+   },
+   "cj_i18n_01680": {
+      "message": "Muat naik"
+   },
+   "cj_i18n_01715": {
+      "message": "Habis"
+   },
+   "cj_i18n_01807": {
+      "message": "Disyorkan"
+   },
+   "cj_i18n_01824": {
+      "message": "Servis"
+   },
+   "cj_i18n_01916": {
+      "message": "Sambung dengan Google"
+   },
+   "cj_i18n_01923": {
+      "message": "Cari untuk"
+   },
+   "cj_i18n_01933": {
+      "message": "Muat naik fail"
+   },
+   "cj_i18n_01934": {
+      "message": "Muat naik fail"
+   },
+   "cj_i18n_01940": {
+      "message": "Namakan semula"
+   },
+   "cj_i18n_01943": {
+      "message": "Nama fail"
+   },
+   "cj_i18n_01990": {
+      "message": "Nama"
+   },
+   "cj_i18n_02121": {
+      "message": "Cara"
+   },
+   "cj_i18n_02543": {
+      "message": "Cetak"
+   },
+   "cj_i18n_02717": {
+      "message": "Tidak dilog masuk"
+   },
+   "cj_i18n_04163": {
+      "message": "Bahasa"
+   },
+   "cj_i18n_04577": {
+      "message": "Edit Penanda Halaman"
+   },
+   "cj_i18n_04776": {
+      "message": "Hak cipta"
+   },
+   "cj_i18n_05092": {
+      "message": "Hasil carian"
+   },
+   "cj_i18n_05190": {
+      "message": "Penyemak Imbas"
+   },
+   "cj_i18n_06233": {
+      "message": "Untuk dibuat"
+   },
+   "cj_i18n_06248": {
+      "message": "Isn"
+   },
+   "cj_i18n_06249": {
+      "message": "Sel"
+   },
+   "cj_i18n_06250": {
+      "message": "Rab"
+   },
+   "cj_i18n_06251": {
+      "message": "Kha"
+   },
+   "cj_i18n_06252": {
+      "message": "Jum"
+   },
+   "cj_i18n_06253": {
+      "message": "Sab"
+   },
+   "cj_i18n_06254": {
+      "message": "Ahd"
+   },
+   "cj_i18n_06257": {
+      "message": "Mac"
+   },
+   "cj_i18n_06259": {
+      "message": "Mei"
+   },
+   "cj_i18n_06262": {
+      "message": "Ogs"
+   },
+   "cj_i18n_06264": {
+      "message": "Okt"
+   },
+   "cj_i18n_06266": {
+      "message": "Dis"
+   },
+   "cj_i18n_06298": {
+      "message": "Lukisan baru"
+   },
+   "cj_i18n_06299": {
+      "message": "Peta baru"
+   },
+   "cj_i18n_06316": {
+      "message": "Nama"
+   },
+   "cj_i18n_06319": {
+      "message": "Nota"
+   },
+   "cj_i18n_06326": {
+      "message": "Muat turun sebagai PDF"
+   },
+   "cj_i18n_06405": {
+      "message": "Telefon Pixel"
+   },
+   "cj_i18n_06418": {
+      "message": "Aplikasi telefon"
+   }
+}

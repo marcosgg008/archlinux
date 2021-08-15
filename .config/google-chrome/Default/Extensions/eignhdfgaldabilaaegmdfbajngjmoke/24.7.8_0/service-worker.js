@@ -1,0 +1,1 @@
+"use strict";importScripts("/scripts/url-search-params-polyfill.js","/scripts/cj-landing.js","/scripts/cj-basics.js","/scripts/browser-storage.js","/scripts/cjce-core.js","/scripts/basic-templates.js","/scripts/cjg-apis.js","/scripts/bg-cleanstorage.js","/scripts/bg-contextmenu.js","/scripts/bg-browseraction.js","/scripts/bg-gpopup.js","/scripts/background.js");

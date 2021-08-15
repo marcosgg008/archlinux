@@ -1,0 +1,25 @@
+#----PERSONALIZADOS----#
+
+# Teclado Español
+setxkbmap es &
+
+# Fondo de pantalla
+feh --bg-scale Wallpapers/fondo1.png &
+
+# Transpariencia (picom)
+picom &
+
+# Audio
+# pulseaudio & 
+
+# Brillo
+brightnessctl & 
+
+# Montar USBs (udiskie)
+udiskie -t &
+
+# Red (network-manager-applet)
+nm-applet &
+
+# Icono Bateria
+cbatticon &
