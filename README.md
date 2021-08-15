@@ -96,3 +96,10 @@ Le podemos añadir un atajo de teclado en .config/qtile/config.py para no tener 
     notification-send: "Hola Mundo"
 
     
+
+
+
+
+etc/default
+sudo nano grub
+GRUB_DISABLE_OS_PROBER=false
