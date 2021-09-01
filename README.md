@@ -72,6 +72,19 @@ Le podemos añadir un atajo de teclado en .config/qtile/config.py para no tener 
     sudo pacman -S pulseaudio pavucontrol
     pulseaudio &
     
+<p>Para poder usar las teclas de subir o bajar volumen deberemos añadir estos comandos a la configuración de qtile</p>
+
+    # Volumen
+    Key([], "XF86AudioLowerVolume", lazy.spawn(
+    "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+    )),
+    Key([], "XF86AudioRaiseVolume", lazy.spawn(
+    "pactl set-sink-volume @DEFAULT_SINK@ +5%"
+    )),
+    Key([], "XF86AudioMute", lazy.spawn(
+    "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    )),
+    
 <p>Con esto ya tenemos audio, puedes ir a youtube mediante los atajos configurados a probarlo, pero muy posiblemente tengas que acceder a pavucontrol (por rofi por ejemplo) y desmutear el sonido.
 
 <h3>XINIT</h3>
