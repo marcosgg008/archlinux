@@ -710,6 +710,9 @@ y para *alacritty*, [este](https://github.com/antoniosarosi/dotfiles/tree/master
 | **[trayer](https://www.archlinux.org/packages/extra/x86_64/trayer/)** | Systray                            |
 
 
+## NVIM
+
+
 etc/default
 sudo nano grub
 GRUB_DISABLE_OS_PROBER=false
