@@ -108,7 +108,14 @@ Le podemos añadir un atajo de teclado en .config/qtile/config.py para no tener 
     //PUEDES PROBARLO PONIENDO:
     notification-send: "Hola Mundo"
 
-    
+<h3>FUENTES</h3>
+<p> Como las fuentes de arch son pésimas, yo suelo instalar: nerd-fonts-ubuntu-mono(aur), ttf-dejavu, ttf-liberation y noto-fonts</p>
+
+<h3>EXPLORADOR DE ARCHIVOS</h3>
+<p> En este apartado poquito, yo suelo usar thunar para un explorador gráfico y ranger para uno basado en terminal </p>
+
+<h3> DISCOS </h3>
+<p> Para poder leer discos, y demás, yo uso, ntfs-3g, udiskie, udisks(aur)
 
 
 
